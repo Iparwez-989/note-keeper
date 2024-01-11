@@ -6,7 +6,7 @@ function Footer() {
     
   return (
     <footer>
-        <p>Copyright © {year}</p>
+        <p>Created By Irfan Parwez </p>
     </footer>
   )
 }
