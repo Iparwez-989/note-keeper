@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: rgb(175, 175, 0);
+    padding: 10px 0;
+}
+header h1{
+    color: white;
+    margin-left: 20px;
+
+}
+footer{
+    position: fixed;
+    font-weight: 400;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+
+}
+footer p{
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(117, 104, 104);
+    color: #ccc;
+}
+
+.Note{
+   background: #fff;
+   padding: 10px;
+   width: 240px;
+   margin: 16px;
+   float: left;
+   box-shadow: 3px 5px 5px black;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.Note p{
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+ }
+ 
+
+  
+  form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+  .Note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+
+ @media(max-width:500px){
+    header{
+      background-color: red;
+      width: 100%;
+    }
+    form{
+      position: relative;
+      width: 280px;
+      margin: 30px auto 20px auto;
+      background: #fff;
+      padding: 15px;
+      border-radius: 7px;
+      box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+    }
+
+  .Note{
+    float: left;
+    width: 150px;
+    
+  }
+  .Note p {
+    font-size: 0.8rem;
+  }
+
+
+
+ }
